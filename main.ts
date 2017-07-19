@@ -24,12 +24,10 @@ function createWindow() {
     height: size.height
   });
 
-<<<<<<< HEAD
+
   win.setMenuBarVisibility(false);
   win.setAutoHideMenuBar(true);
 
-=======
->>>>>>> 014edbf32c9bad6c1c7a63dd7a1209e628f1e3a9
   // and load the index.html of the app.
   win.loadURL('file://' + __dirname + '/index.html');
 
