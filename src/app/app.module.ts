@@ -11,6 +11,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 
 import { ElectronService } from './providers/electron.service';
+import { CommandRunner } from './bizanz-record/command-runner.service';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ElectronService } from './providers/electron.service';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [ElectronService],
+  providers: [ElectronService, CommandRunner],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
