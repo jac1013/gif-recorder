@@ -12,6 +12,7 @@ if (serve) {
 }
 
 function createWindow() {
+  console.log('HELLO');
 
   let electronScreen = screen;
   let size = electronScreen.getPrimaryDisplay().workAreaSize;
