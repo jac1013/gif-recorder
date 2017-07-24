@@ -24,6 +24,8 @@ function createWindow() {
     height: size.height
   });
 
+  console.log('Hello Test');
+
 
   win.setMenuBarVisibility(false);
   win.setAutoHideMenuBar(true);
