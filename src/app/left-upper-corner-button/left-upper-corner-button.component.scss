@@ -1,0 +1,26 @@
+.left-upper-corner-button {
+  background-color: darkgray;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  color: darkslategray;
+}
+
+li:hover {
+  background-color: aqua;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid cadetblue;
+}
+
+li:last-child {
+  border: none;
+}
