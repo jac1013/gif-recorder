@@ -12,11 +12,5 @@ export class CommandRunner {
     }
   }
 
-  run() {
-    const ls = this.childProcess.spawn('ls', ['-lh', '/usr']);
-
-    ls.stdout.on('data', (data) => {
-      console.log(`stdout: ${data}`);
-    });
-  }
+  run() {}
 }
