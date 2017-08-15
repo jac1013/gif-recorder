@@ -9,9 +9,13 @@ import { CommandRunner } from '../../bizanz-record/command-runner.service';
 export class HomeComponent implements OnInit {
   title = `App works !`;
 
-  constructor() { }
+  constructor(private commandRunner: CommandRunner) { }
 
   ngOnInit() {
+  }
+
+  runCommand() {
+    this.commandRunner.run();
   }
 
 }

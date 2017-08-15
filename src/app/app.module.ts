@@ -12,11 +12,13 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { ElectronService } from './providers/electron.service';
 import { CommandRunner } from './bizanz-record/command-runner.service';
+import { LeftUpperCornerButton } from './left-upper-corner-button/left-upper-corner-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    LeftUpperCornerButton
   ],
   imports: [
     BrowserModule,
